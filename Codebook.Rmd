@@ -1,0 +1,19 @@
+---
+title: "Codebook"
+author: "Ariel Fishman"
+date: "July 28, 2016"
+output: html_document
+---
+
+The variables in the final data set include the following:
+* _source:_ A binary variable, indicates whether the data is from the _test_ or _train_ing data set. 
+* _subject:_ indicates the subject ID, from 1 to 30. 
+* _activity:_ indicates which of six activities, including:
+** LAYING
+** SITTING
+** STANDING
+** WALKING
+** WALKING DOWNSTAIRS
+** WALKING UPSTAIRS 
+* _feature:_ indicates the particular measure that was taken (out of 477). Sample values include _tGravityAccMag-arCoeff()4_ and _tBodyGyroJerk-mean()-Z_ . The source information is here: <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+* _measure:_ indicates the value associated with the _feature_
